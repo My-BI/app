@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "palettes": [
+    {
+      "id": "default",
+      "name": "Default",
+      "author": "MyBI",
+      "path": "default.gpl"
+    },
+    {
+      "id": "okabe-ito",
+      "name": "Okabe-Ito",
+      "author": "Masataka Okabe & Kei Ito",
+      "path": "okabe-ito.gpl"
+    },
+    {
+      "id": "life",
+      "name": "Life",
+      "author": "MyBI",
+      "path": "life.gpl"
+    },
+    {
+      "id": "mks",
+      "name": "MKS",
+      "author": "MyBI",
+      "path": "mks.gpl"
+    },
+    {
+      "id": "finn",
+      "name": "Finn",
+      "author": "MyBI",
+      "path": "finn.gpl"
+    },
+    {
+      "id": "glasgow",
+      "name": "Glasgow",
+      "author": "MyBI",
+      "path": "glasgow.gpl"
+    },
+    {
+      "id": "jaipur",
+      "name": "Jaipur",
+      "author": "MyBI",
+      "path": "jaipur.gpl"
+    },
+    {
+      "id": "monday-blues",
+      "name": "Monday Blues",
+      "author": "MyBI",
+      "path": "monday-blues.gpl"
+    },
+    {
+      "id": "grey",
+      "name": "Grey",
+      "author": "MyBI",
+      "path": "grey.gpl"
+    },
+    {
+      "id": "oled",
+      "name": "OLED Black",
+      "author": "MyBI",
+      "path": "oled.gpl"
+    }
+  ]
+}

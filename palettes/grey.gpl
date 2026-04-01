@@ -1,0 +1,124 @@
+GIMP Palette
+Name: Grey
+Columns: 8
+# Identifier: grey
+# Description: A neutral grey — warm charcoal surfaces with no colour cast, for when the data should carry the only colour on screen.
+# Author: MyBI
+# Charts series
+ 82  82  91	Charts 1
+113 113 122	Charts 2
+161 161 170	Charts 3
+212 212 216	Charts 4
+ 63  63  70	Charts 5
+136 136 146	Charts 6
+185 185 193	Charts 7
+ 39  39  42	Charts 8
+# Primary palette
+ 39  39  42	Primary 1
+ 63  63  70	Primary 2
+ 82  82  91	Primary 3
+113 113 122	Primary 4
+161 161 170	Primary 5
+# Secondary palette
+136 136 146	Secondary 1
+161 161 170	Secondary 2
+185 185 193	Secondary 3
+212 212 216	Secondary 4
+228 228 231	Secondary 5
+# Additional functional colours
+ 82  82  91	Functional 1
+161 161 170	Functional 2
+253 230 138	Functional 3
+134 239 172	Functional 4
+ 22 163  74	Functional 5
+# Bar charts
+ 39  39  42	Bar 1
+ 63  63  70	Bar 2
+ 82  82  91	Bar 3
+113 113 122	Bar 4
+136 136 146	Bar 5
+161 161 170	Bar 6
+196 196 202	Bar 7
+# Line charts
+113 113 122	Line 1
+ 63  63  70	Line 2
+161 161 170	Line 3
+ 90  90  99	Line 4
+136 136 146	Line 5
+185 185 193	Line 6
+ 39  39  42	Line 7
+# Pie charts
+ 63  63  70	Pie 1
+113 113 122	Pie 2
+161 161 170	Pie 3
+196 196 202	Pie 4
+ 88  88  96	Pie 5
+136 136 146	Pie 6
+212 212 216	Pie 7
+# Heatmap charts
+250 250 250	Heatmap 1
+228 228 231	Heatmap 2
+196 196 202	Heatmap 3
+161 161 170	Heatmap 4
+113 113 122	Heatmap 5
+ 63  63  70	Heatmap 6
+ 39  39  42	Heatmap 7
+# Gauge charts
+113 113 122	Gauge 1
+ 82  82  91	Gauge 2
+161 161 170	Gauge 3
+245 158  11	Gauge 4
+225  29  72	Gauge 5
+# Other charts
+ 82  82  91	Other 1
+136 136 146	Other 2
+161 161 170	Other 3
+245 158  11	Other 4
+ 22 163  74	Other 5
+113 113 122	Other 6
+ 63  63  70	Other 7
+# Light theme
+ 82  82  91	Light Accent
+255 255 255	Light Background
+250 250 250	Light Surface
+244 244 245	Light Surface 2
+238 238 240	Light Background Hover
+ 24  24  27	Light Text
+ 82  82  91	Light Text Dim
+122 122 132	Light Text Faint
+229 229 233	Light Border
+196 196 202	Light Border Strong
+ 82  82  91	Light Selected
+255 255 255	Light Selected Text
+244 244 245	Light Footer
+250 250 250	Light Icon Rail
+# Dark theme — the warm charcoal that used to be the "Grey" dark tone, value for value
+161 161 170	Dark Accent
+ 26  27  30	Dark Background
+ 37  39  44	Dark Surface
+ 43  45  51	Dark Surface 2
+ 49  51  56	Dark Background Hover
+230 233 239	Dark Text
+154 164 178	Dark Text Dim
+107 116 132	Dark Text Faint
+ 53  55  61	Dark Border
+ 71  74  81	Dark Border Strong
+161 161 170	Dark Selected
+ 24  24  27	Dark Selected Text
+ 33  35  39	Dark Footer
+ 37  39  44	Dark Icon Rail
+# OLED theme
+161 161 170	OLED Accent
+  0   0   0	OLED Background
+  7   7   9	OLED Surface
+ 10  10  14	OLED Surface 2
+ 22  22  28	OLED Background Hover
+241 243 248	OLED Text
+154 164 178	OLED Text Dim
+107 116 132	OLED Text Faint
+ 28  28  36	OLED Border
+ 42  42  52	OLED Border Strong
+161 161 170	OLED Selected
+  0   0   0	OLED Selected Text
+  0   0   0	OLED Footer
+ 10  10  14	OLED Icon Rail

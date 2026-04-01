@@ -1,0 +1,126 @@
+GIMP Palette
+Name: OLED Black
+Columns: 8
+# Identifier: oled
+# Description: True black — pixels switched off rather than dimmed, for OLED screens where black costs no light at all.
+# Author: MyBI
+# Charts series
+ 56 139 253	Charts 1
+ 63 185 128	Charts 2
+219 152  30	Charts 3
+219  99 110	Charts 4
+165 122 255	Charts 5
+ 57 197 187	Charts 6
+230 128 191	Charts 7
+137 145 158	Charts 8
+# Primary palette
+ 20  62 116	Primary 1
+ 31  94 174	Primary 2
+ 56 139 253	Primary 3
+109 176 255	Primary 4
+163 207 255	Primary 5
+# Secondary palette
+165 122 255	Secondary 1
+137  87 229	Secondary 2
+ 57 197 187	Secondary 3
+ 63 185 128	Secondary 4
+230 128 191	Secondary 5
+# Additional functional colours
+ 56 139 253	Functional 1
+ 63 185 128	Functional 2
+219 152  30	Functional 3
+219  99 110	Functional 4
+137 145 158	Functional 5
+# Bar charts
+ 20  62 116	Bar 1
+ 31  94 174	Bar 2
+ 45 118 214	Bar 3
+ 56 139 253	Bar 4
+109 176 255	Bar 5
+163 207 255	Bar 6
+203 227 255	Bar 7
+# Line charts
+ 56 139 253	Line 1
+ 63 185 128	Line 2
+219 152  30	Line 3
+165 122 255	Line 4
+ 57 197 187	Line 5
+219  99 110	Line 6
+137 145 158	Line 7
+# Pie charts
+ 56 139 253	Pie 1
+ 63 185 128	Pie 2
+219 152  30	Pie 3
+219  99 110	Pie 4
+165 122 255	Pie 5
+ 57 197 187	Pie 6
+137 145 158	Pie 7
+# Heatmap charts
+  6  10  18	Heatmap 1
+ 12  26  48	Heatmap 2
+ 20  50  95	Heatmap 3
+ 31  94 174	Heatmap 4
+ 56 139 253	Heatmap 5
+109 176 255	Heatmap 6
+183 216 255	Heatmap 7
+# Gauge charts
+ 63 185 128	Gauge 1
+150 195  90	Gauge 2
+219 152  30	Gauge 3
+224 118  60	Gauge 4
+219  99 110	Gauge 5
+# Other charts
+ 56 139 253	Other 1
+ 63 185 128	Other 2
+219 152  30	Other 3
+219  99 110	Other 4
+165 122 255	Other 5
+ 57 197 187	Other 6
+137 145 158	Other 7
+# Light theme — OLED is a DARK look; the light set stays the app's neutral default so switching
+# to Light with this palette applied does not drag a black theme into daylight.
+ 31  94 174	Light Accent
+255 255 255	Light Background
+250 250 251	Light Surface
+244 245 247	Light Surface 2
+237 239 242	Light Background Hover
+ 24  27  33	Light Text
+ 82  88  98	Light Text Dim
+122 129 141	Light Text Faint
+228 231 236	Light Border
+196 201 210	Light Border Strong
+ 31  94 174	Light Selected
+255 255 255	Light Selected Text
+244 245 247	Light Footer
+250 250 251	Light Icon Rail
+# Dark theme — the TRUE BLACK set, value for value from the old OLED tone. It sits in the DARK
+# slots on purpose: OLED is no longer a mode of its own, it is this palette worn in Dark.
+ 56 139 253	Dark Accent
+  0   0   0	Dark Background
+  7   7   9	Dark Surface
+ 14  14  18	Dark Surface 2
+ 22  22  28	Dark Background Hover
+241 243 248	Dark Text
+154 164 178	Dark Text Dim
+107 116 132	Dark Text Faint
+ 28  28  36	Dark Border
+ 42  42  52	Dark Border Strong
+ 56 139 253	Dark Selected
+255 255 255	Dark Selected Text
+  0   0   0	Dark Footer
+ 10  10  14	Dark Icon Rail
+# OLED theme — identical to Dark above, so the look is the same whichever route reaches it.
+ 56 139 253	OLED Accent
+  0   0   0	OLED Background
+  7   7   9	OLED Surface
+ 14  14  18	OLED Surface 2
+ 22  22  28	OLED Background Hover
+241 243 248	OLED Text
+154 164 178	OLED Text Dim
+107 116 132	OLED Text Faint
+ 28  28  36	OLED Border
+ 42  42  52	OLED Border Strong
+ 56 139 253	OLED Selected
+255 255 255	OLED Selected Text
+  0   0   0	OLED Footer
+ 10  10  14	OLED Icon Rail
