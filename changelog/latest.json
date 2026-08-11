@@ -1,0 +1,30 @@
+{
+  "_doc": "What the shipped apps poll to learn whether they are behind. PER PLATFORM, because macOS and Windows do not ship together: a Store review can hold one back for days while the other is already live, and telling a Mac to update to a version only Windows has would send it to a store page that offers nothing. An app compares its own version with its own platform's `latest` and does nothing at all unless it is BEHIND \u2014 equal or ahead means no prompt, which is what keeps a TestFlight or internal build from nagging about a version it already contains.",
+  "version": 1,
+  "platforms": {
+    "macos": {
+      "latest": "26.1.0",
+      "minimumSupported": "26.0.0",
+      "mandatory": false,
+      "criticalSecurity": false,
+      "store": "macappstore://showUpdatesPage",
+      "storeFallback": "https://apps.apple.com/app/mybi/id6791545656"
+    },
+    "windows": {
+      "latest": "26.1.0",
+      "minimumSupported": "26.0.0",
+      "mandatory": false,
+      "criticalSecurity": false,
+      "store": "ms-windows-store://downloadsandupdates",
+      "storeFallback": "https://apps.microsoft.com/detail/9PC422FHPHLJ"
+    }
+  },
+  "_fields": {
+    "latest": "The newest version LIVE on that platform's store. Do not raise it when a build is submitted \u2014 raise it when the build is downloadable, or every user is told to fetch something that is not there yet.",
+    "minimumSupported": "Advisory floor, currently unused by the client. Reserved for a hard cut-off older than any deadline below.",
+    "mandatory": "The update must be taken within 72 HOURS. The clock starts when THIS INSTALL first sees the flag and writes the timestamp locally \u2014 not when the release was published \u2014 so someone who was on holiday gets their own full 72 hours rather than arriving to a locked app. Until the deadline it is an ordinary, dismissible prompt that says it is required; after it, the app asks them to update to continue.",
+    "criticalSecurity": "The same mechanism with a 24-HOUR window and different words: the reason is named as security, so nobody reads it as a feature release worth putting off. Implies mandatory \u2014 setting this alone is enough.",
+    "store": "Deep link opened by the update button. Both go to the UPDATES surface rather than the product page, because someone who already owns the app needs the update list, not a Get button.",
+    "storeFallback": "Used when the deep link cannot open (protocol not registered, sideload, unpackaged build). Both are the real listings. Region-NEUTRAL on purpose: a /in/ or /gb/ path pins every reader to one storefront, and Apple already redirects a bare app link to the viewer's own."
+  }
+}
