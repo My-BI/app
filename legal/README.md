@@ -9,8 +9,19 @@ without dragging the other two along.
 | [Privacy-Policy.md](Privacy-Policy.md) | Privacy Policy |
 | [AI.md](AI.md) | AI & Data Use |
 
-Read from 26.1 onwards. Earlier releases read a single `consent.json` here; they no longer find it,
-fall back to the copy inside the app and carry on — the fetch was only ever an update check.
+Read from 26.1 onwards. Releases up to 26.1.0 read a single `consent.json`, which is still published
+here beside them — see below.
+
+## `consent.json` — the copy for released versions
+
+Every version currently in people's hands asks for `consent.json`, so it stays until 26.1 ships and
+no supported release wants it. It is not a second source of truth: **edit the markdown, regenerate
+the JSON from it, never the other way round.** Both carry the same `id`, `title` and body, so both
+hash to the same consent version — a user on 26.0.x and a user on 26.1 are agreeing to the same
+terms, and neither is re-prompted for having read one file rather than three.
+
+Letting the two drift is the one mistake with a visible cost: the older releases would show older
+terms, and the two populations would sit on different accepted versions.
 
 ## What the app does with these
 
